@@ -9,11 +9,14 @@ echo "🚀 Dotfiles Deployment Starting..."
 # 1. Install Pacman packages
 echo "📦 Installing base packages..."
 sudo pacman -S --needed --noconfirm \
-    fish neovim hyprland \
+    base-devel git fish neovim hyprland \
     alacritty kitty \
+    quickshell hyprpm \
     fastfetch lsd bat zoxide thefuck yazi \
+    jq playerctl wl-clipboard grim slurp brightnessctl \
+    fuzzel wlogout \
     ryzenadj \
-    ripgrep fd git nodejs npm python3 gcc \
+    ripgrep fd nodejs npm python3 gcc \
     hyprlock hypridle \
     thunar \
     ttf-firacode-nerd noto-fonts noto-fonts-emoji
@@ -26,14 +29,10 @@ if ! command -v yay &> /dev/null; then
     git clone https://aur.archlinux.org/yay.git
     cd yay
     makepkg -si --noconfirm
-    cd ~
+    cd - >/dev/null
 fi
 
-yay -S --needed --noconfirm \
-    omniroute \
-    hyprpm \
-    quickshell \
-    illogical-impulse
+yay -S --needed --noconfirm omniroute
 
 # 3. Install LinuxBrew
 echo "🍺 Setting up LinuxBrew..."
@@ -68,6 +67,8 @@ cp -r "$SCRIPT_DIR/.config/alacritty" ~/.config/
 [ -d "$SCRIPT_DIR/.config/illogical-impulse" ] && cp -r "$SCRIPT_DIR/.config/illogical-impulse" ~/.config/
 [ -d "$SCRIPT_DIR/.config/wlogout" ] && cp -r "$SCRIPT_DIR/.config/wlogout" ~/.config/
 [ -d "$SCRIPT_DIR/.config/fuzzel" ] && cp -r "$SCRIPT_DIR/.config/fuzzel" ~/.config/
+find ~/.config/hypr -type f -name "*.sh" -exec chmod +x {} + 2>/dev/null || true
+find ~/.config/quickshell -type f \( -name "*.sh" -o -name "*.py" \) -exec chmod +x {} + 2>/dev/null || true
 
 # 5. Copy scripts
 echo "📜 Installing scripts..."
