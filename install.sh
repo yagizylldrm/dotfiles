@@ -22,8 +22,8 @@ sudo pacman -S --needed --noconfirm \
     ttf-firacode-nerd noto-fonts noto-fonts-emoji
 
 # 2. Install Global NPM packages
-echo "🌐 Installing global npm packages (omniroute)..."
-sudo npm install -g omniroute
+echo "🌐 Installing global npm packages (omniroute, claude-code)..."
+sudo npm install -g omniroute @anthropic-ai/claude-code
 
 # 3. Optional AUR packages
 if command -v yay &> /dev/null; then
@@ -81,13 +81,7 @@ echo "⚙️ Copying claude-omniroute settings..."
 mkdir -p ~/.claude-omniroute
 [ -f "$SCRIPT_DIR/.claude-omniroute/settings.json" ] && cp "$SCRIPT_DIR/.claude-omniroute/settings.json" ~/.claude-omniroute/
 
-# 7. Install Claude Code
-if ! command -v claude &> /dev/null; then
-    echo "📥 Installing Claude Code..."
-    curl -fsSL https://anthropic.com/claude-code/install.sh | bash
-fi
-
-# 8. Environment setup reminder
+# 7. Environment setup reminder
 echo ""
 echo "✅ Deployment complete!"
 echo ""
