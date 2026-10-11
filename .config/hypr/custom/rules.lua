@@ -1,0 +1,2 @@
+-- hypr/custom/rules.lua
+-- User custom window/layer rules override

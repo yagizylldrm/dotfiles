@@ -1,0 +1,2 @@
+-- hypr/custom/general.lua
+-- User custom general settings override

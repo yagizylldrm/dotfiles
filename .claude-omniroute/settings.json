@@ -1,0 +1,27 @@
+{
+  "model": "claude-omniroute",
+  "extraKnownMarketplaces": {
+    "ponytail": {
+      "source": {
+        "source": "github",
+        "repo": "DietrichGebert/ponytail"
+      }
+    }
+  },
+  "modelSettings": {
+    "claude-omniroute": {
+      "effortLevel": "medium"
+    }
+  },
+  "skipWorkflowUsageWarning": true,
+  "theme": "dark",
+  "openBrowser": false,
+  "autoOpen": false,
+  "enabledPlugins": {
+    "ponytail@ponytail": true
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "bash \"/home/yagizylldrm/.claude-omniroute/ponytail-statusline.sh\""
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "config/animations.lua": {
+    "mtime": 1791611546.1069064,
+    "seen": 1791737234.4634528,
+    "ast_hash": "2c65b69c271ddf9b2b6bae0056136103",
+    "semantic_hash": "2c65b69c271ddf9b2b6bae0056136103"
+  },
+  "config/autostart.lua": {
+    "mtime": 1791611546.1069064,
+    "seen": 1791737234.4634552,
+    "ast_hash": "322fe5beb5825c5e65902ed3bcb2df32",
+    "semantic_hash": "322fe5beb5825c5e65902ed3bcb2df32"
+  },
+  "config/binds.lua": {
+    "mtime": 1791611546.1069064,
+    "seen": 1791737234.4634562,
+    "ast_hash": "d317b4e1fb3af9d24f022cb051b1f465",
+    "semantic_hash": "d317b4e1fb3af9d24f022cb051b1f465"
+  },
+  "config/colors.lua": {
+    "mtime": 1791611546.1069064,
+    "seen": 1791737234.463457,
+    "ast_hash": "e63d24d319af25952ee12e65a4f61d35",
+    "semantic_hash": "e63d24d319af25952ee12e65a4f61d35"
+  },
+  "config/decorations.lua": {
+    "mtime": 1791611546.1069064,
+    "seen": 1791737234.4634576,
+    "ast_hash": "b9d424b95df42a83c1d28d2901d34987",
+    "semantic_hash": "b9d424b95df42a83c1d28d2901d34987"
+  },
+  "config/environment.lua": {
+    "mtime": 1791611546.1069064,
+    "seen": 1791737234.463458,
+    "ast_hash": "f43bdd0ec3cbc17405cde5ec80ae353a",
+    "semantic_hash": "f43bdd0ec3cbc17405cde5ec80ae353a"
+  },
+  "config/inputs.lua": {
+    "mtime": 1791611546.1069064,
+    "seen": 1791737234.4634588,
+    "ast_hash": "d6938933ec8667b8e91fa5e43c9b2eca",
+    "semantic_hash": "d6938933ec8667b8e91fa5e43c9b2eca"
+  },
+  "config/misc.lua": {
+    "mtime": 1791611546.1069064,
+    "seen": 1791737234.4634593,
+    "ast_hash": "f00f3b7aa511b03d019de1301167246c",
+    "semantic_hash": "f00f3b7aa511b03d019de1301167246c"
+  },
+  "config/monitors.lua": {
+    "mtime": 1791611546.1069064,
+    "seen": 1791737234.4634597,
+    "ast_hash": "e778bf76999edd178217af829e2930f3",
+    "semantic_hash": "e778bf76999edd178217af829e2930f3"
+  },
+  "config/variables.lua": {
+    "mtime": 1791611546.1069064,
+    "seen": 1791737234.4634604,
+    "ast_hash": "4715b3e95001c4cf4d0559f8997079a4",
+    "semantic_hash": "4715b3e95001c4cf4d0559f8997079a4"
+  },
+  "config/windowrules.lua": {
+    "mtime": 1791611546.1069064,
+    "seen": 1791737234.4634607,
+    "ast_hash": "ef6de987c1bae5ccb5739478980dbf68",
+    "semantic_hash": "ef6de987c1bae5ccb5739478980dbf68"
+  },
+  "config/workspaces.lua": {
+    "mtime": 1791611546.1069064,
+    "seen": 1791737234.4634614,
+    "ast_hash": "9b9a8487f098de9db84283f140c5740e",
+    "semantic_hash": "9b9a8487f098de9db84283f140c5740e"
+  },
+  "custom/env.lua": {
+    "mtime": 1791617829.332701,
+    "seen": 1791737234.4634616,
+    "ast_hash": "c5baa0e693d2e4896554ea50f900c877",
+    "semantic_hash": "c5baa0e693d2e4896554ea50f900c877"
+  },
+  "custom/execs.lua": {
+    "mtime": 1791612986.1983702,
+    "seen": 1791737234.4634624,
+    "ast_hash": "68b329da9893e34099c7d8ad5cb9c940",
+    "semantic_hash": "68b329da9893e34099c7d8ad5cb9c940"
+  },
+  "custom/general.lua": {
+    "mtime": 1791617829.332701,
+    "seen": 1791737234.4634628,
+    "ast_hash": "f804342310affdbdadbe7ce19f8e1205",
+    "semantic_hash": "f804342310affdbdadbe7ce19f8e1205"
+  },
+  "custom/keybinds.lua": {
+    "mtime": 1791698116.0702736,
+    "seen": 1791737234.463463,
+    "ast_hash": "a35470513bfec9308a40363b9ea5d3b7",
+    "semantic_hash": "a35470513bfec9308a40363b9ea5d3b7"
+  },
+  "custom/rules.lua": {
+    "mtime": 1791617829.333701,
+    "seen": 1791737234.4634638,
+    "ast_hash": "1cf50a0d609772fe173e1bef13b941da",
+    "semantic_hash": "1cf50a0d609772fe173e1bef13b941da"
+  },
+  "custom/scripts/__restore_video_wallpaper.sh": {
+    "mtime": 1791617829.333701,
+    "seen": 1791737234.4634643,
+    "ast_hash": "ed4d980ac81383c8698598dc9ee163c1",
+    "semantic_hash": "ed4d980ac81383c8698598dc9ee163c1"
+  },
+  "custom/variables.lua": {
+    "mtime": 1791612986.1983702,
+    "seen": 1791737234.4634645,
+    "ast_hash": "68b329da9893e34099c7d8ad5cb9c940",
+    "semantic_hash": "68b329da9893e34099c7d8ad5cb9c940"
+  },
+  "hyprland.lua": {
+    "mtime": 1791734803.479743,
+    "seen": 1791737234.463465,
+    "ast_hash": "ee021cc1d1709e757cc9dc0b09e2bb8b",
+    "semantic_hash": "ee021cc1d1709e757cc9dc0b09e2bb8b"
+  },
+  "hyprland/colors.lua": {
+    "mtime": 1791665975.0672057,
+    "seen": 1791737234.4634655,
+    "ast_hash": "029126aa6f7e216640ca22c3ad66fb25",
+    "semantic_hash": "029126aa6f7e216640ca22c3ad66fb25"
+  },
+  "hyprland/env.lua": {
+    "mtime": 1791617829.3343663,
+    "seen": 1791737234.463466,
+    "ast_hash": "5d22644f7f964ff9e83d5ef0b240a13e",
+    "semantic_hash": "5d22644f7f964ff9e83d5ef0b240a13e"
+  },
+  "hyprland/execs.lua": {
+    "mtime": 1791665963.5651822,
+    "seen": 1791737234.4634664,
+    "ast_hash": "7d613e9700fd7e5a3b05435b1d5eddd2",
+    "semantic_hash": "7d613e9700fd7e5a3b05435b1d5eddd2"
+  },
+  "hyprland/general.lua": {
+    "mtime": 1791665986.0132282,
+    "seen": 1791737234.4634671,
+    "ast_hash": "b1f89f35a88622ed21a0bf353af0230d",
+    "semantic_hash": "b1f89f35a88622ed21a0bf353af0230d"
+  },
+  "hyprland/keybinds.lua": {
+    "mtime": 1791736984.1459966,
+    "seen": 1791737234.4634676,
+    "ast_hash": "d1874186bd1b3599172b747870b0e1c2",
+    "semantic_hash": "d1874186bd1b3599172b747870b0e1c2"
+  },
+  "hyprland/lib.lua": {
+    "mtime": 1791617829.334701,
+    "seen": 1791737234.463468,
+    "ast_hash": "022203b095e0d7830f2b6ce36896a6ee",
+    "semantic_hash": "022203b095e0d7830f2b6ce36896a6ee"
+  },
+  "hyprland/lib/init.lua": {
+    "mtime": 1791612986.1987557,
+    "seen": 1791737234.4634683,
+    "ast_hash": "b1d3e686d7a796662ba573a1adbcdde3",
+    "semantic_hash": "b1d3e686d7a796662ba573a1adbcdde3"
+  },
+  "hyprland/nwg.lua": {
+    "mtime": 1791666016.4142923,
+    "seen": 1791737234.4634688,
+    "ast_hash": "3f10c08cf49882ca925c885b60912a1b",
+    "semantic_hash": "3f10c08cf49882ca925c885b60912a1b"
+  },
+  "hyprland/rules.lua": {
+    "mtime": 1791665959.3091738,
+    "seen": 1791737234.4634693,
+    "ast_hash": "cee971101d892e79a79226c3d06d410e",
+    "semantic_hash": "cee971101d892e79a79226c3d06d410e"
+  },
+  "hyprland/scripts/ai/primary-buffer-query.sh": {
+    "mtime": 1791617829.335701,
+    "seen": 1791737234.4634697,
+    "ast_hash": "0e3064806f6cd1e6d4c4f187dfff321b",
+    "semantic_hash": "0e3064806f6cd1e6d4c4f187dfff321b"
+  },
+  "hyprland/scripts/ai/show-loaded-ollama-models.sh": {
+    "mtime": 1791617829.335701,
+    "seen": 1791737234.4634702,
+    "ast_hash": "cd7d2da2c22ce0c2e35705ca83906b0b",
+    "semantic_hash": "cd7d2da2c22ce0c2e35705ca83906b0b"
+  },
+  "hyprland/scripts/fuzzel-emoji.sh": {
+    "mtime": 1791617829.336701,
+    "seen": 1791737234.4634707,
+    "ast_hash": "c3672239270a81c6affaa21b5264287f",
+    "semantic_hash": "c3672239270a81c6affaa21b5264287f"
+  },
+  "hyprland/scripts/launch_first_available.sh": {
+    "mtime": 1791617829.336701,
+    "seen": 1791737234.4634712,
+    "ast_hash": "406185243dd4904d92fdd782c97f1213",
+    "semantic_hash": "406185243dd4904d92fdd782c97f1213"
+  },
+  "hyprland/scripts/snip_to_search.sh": {
+    "mtime": 1791617829.336701,
+    "seen": 1791737234.4634717,
+    "ast_hash": "8f4dd63b0fe775e09bfa712d77bc3222",
+    "semantic_hash": "8f4dd63b0fe775e09bfa712d77bc3222"
+  },
+  "hyprland/scripts/start_geoclue_agent.sh": {
+    "mtime": 1791617829.336701,
+    "seen": 1791737234.4634721,
+    "ast_hash": "8e6661a429edb37f2c3b342b857a3259",
+    "semantic_hash": "8e6661a429edb37f2c3b342b857a3259"
+  },
+  "hyprland/scripts/workspace_action.sh": {
+    "mtime": 1791697703.0110974,
+    "seen": 1791737234.4634724,
+    "ast_hash": "e1eb18fa1144ab57b539205eccbf18ef",
+    "semantic_hash": "e1eb18fa1144ab57b539205eccbf18ef"
+  },
+  "hyprland/scripts/zoom.sh": {
+    "mtime": 1791617829.336701,
+    "seen": 1791737234.4634728,
+    "ast_hash": "a08011ff80a7605288ef7b5bca4d57a9",
+    "semantic_hash": "a08011ff80a7605288ef7b5bca4d57a9"
+  },
+  "hyprland/services.lua": {
+    "mtime": 1791617829.336701,
+    "seen": 1791737234.4634733,
+    "ast_hash": "1b40079f8d6b2d070d4f2f1934b9f52a",
+    "semantic_hash": "1b40079f8d6b2d070d4f2f1934b9f52a"
+  },
+  "hyprland/services/create_custom_config.lua": {
+    "mtime": 1791612986.1993024,
+    "seen": 1791737234.463474,
+    "ast_hash": "c872edc0b91557eeee78bd0fcd4dfb72",
+    "semantic_hash": "c872edc0b91557eeee78bd0fcd4dfb72"
+  },
+  "hyprland/services/init.lua": {
+    "mtime": 1791612986.199957,
+    "seen": 1791737234.4634743,
+    "ast_hash": "668c52a34d4c4ee6b2dd59d5b76543b8",
+    "semantic_hash": "668c52a34d4c4ee6b2dd59d5b76543b8"
+  },
+  "hyprland/shellOverrides/main.lua": {
+    "mtime": 1791612986.199957,
+    "seen": 1791737234.4634748,
+    "ast_hash": "72a1963fdf40f8ffae48fed003551a66",
+    "semantic_hash": "72a1963fdf40f8ffae48fed003551a66"
+  },
+  "hyprland/variables.lua": {
+    "mtime": 1791665958.919173,
+    "seen": 1791737234.4634752,
+    "ast_hash": "edb4258a2b8cd6ca6ce190f5b213d225",
+    "semantic_hash": "edb4258a2b8cd6ca6ce190f5b213d225"
+  },
+  "scripts/caps-warn.sh": {
+    "mtime": 1791617829.338264,
+    "seen": 1791737234.4634757,
+    "ast_hash": "f623bc980ea5fb9cd54a26f93df7735f",
+    "semantic_hash": "f623bc980ea5fb9cd54a26f93df7735f"
+  },
+  "hyprland/scripts/ai/license_show-loaded-ollama-models.txt": {
+    "mtime": 1791617829.335701,
+    "seen": 1791737234.4634764,
+    "ast_hash": "86d3f3a95c324c9479bd8986968f4327",
+    "semantic_hash": "86d3f3a95c324c9479bd8986968f4327"
+  }
+}
