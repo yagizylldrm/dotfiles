@@ -72,9 +72,11 @@ cp -r "$SCRIPT_DIR/.config/alacritty" ~/.config/
 # 5. Copy scripts
 echo "📜 Installing scripts..."
 mkdir -p ~/.local/bin
-cp "$SCRIPT_DIR/scripts/ryzen-sessiz.sh" ~/.local/bin/ 2>/dev/null || echo "Ryzen scripts not found, skipping..."
-cp "$SCRIPT_DIR/scripts/ryzen-performans.sh" ~/.local/bin/ 2>/dev/null || echo "Ryzen scripts not found, skipping..."
-chmod +x ~/.local/bin/ryzen-*.sh 2>/dev/null || true
+cp "$SCRIPT_DIR/scripts/ryzen-sessiz.sh" ~/.local/bin/ 2>/dev/null || true
+cp "$SCRIPT_DIR/scripts/ryzen-performans.sh" ~/.local/bin/ 2>/dev/null || true
+cp "$SCRIPT_DIR/scripts/ryzen-sessiz.sh" "$HOME/" 2>/dev/null || true
+cp "$SCRIPT_DIR/scripts/ryzen-performans.sh" "$HOME/" 2>/dev/null || true
+chmod +x ~/.local/bin/ryzen-*.sh "$HOME"/ryzen-*.sh 2>/dev/null || true
 
 # 6. Claude-omniroute settings
 echo "⚙️ Copying claude-omniroute settings..."
