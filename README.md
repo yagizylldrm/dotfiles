@@ -5,7 +5,7 @@ Arch Linux / CachyOS dotfiles for Hyprland, Neovim, Fish, and terminal setup.
 ## Quick Install
 
 ```bash
-git clone <your-repo-url> ~/dotfiles
+git clone https://github.com/yagizylldrm/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 ./install.sh
 ```
