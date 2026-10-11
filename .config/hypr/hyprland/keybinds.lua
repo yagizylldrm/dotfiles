@@ -115,8 +115,8 @@ hl.bind("SUPER + Minus", function() zoomfunction(-0.3) end, { repeating = true, 
 hl.bind("SUPER + Equal", function() zoomfunction(0.3) end, { repeating = true, description = "Screen: Zoom in" })
 
 --# Zoom with keypad
-hl.bind("SUPER + code:82", function() zoomfunction(-0.3) end, { repeating = true })
-hl.bind("SUPER + code:86", function() zoomfunction(0.3) end, { repeating = true })
+hl.bind("SUPER + KP_Subtract", function() zoomfunction(-0.3) end, { repeating = true })
+hl.bind("SUPER + KP_Add", function() zoomfunction(0.3) end, { repeating = true })
 
 --##! Media
 local mediaNextCommand =
@@ -200,28 +200,6 @@ hl.bind("SUPER + SHIFT + 7", hl.dsp.window.move({ workspace = 7, follow = false 
 hl.bind("SUPER + SHIFT + 8", hl.dsp.window.move({ workspace = 8, follow = false }), { description = "Window: Send to workspace 8" })
 hl.bind("SUPER + SHIFT + 9", hl.dsp.window.move({ workspace = 9, follow = false }), { description = "Window: Send to workspace 9" })
 hl.bind("SUPER + SHIFT + 0", hl.dsp.window.move({ workspace = 10, follow = false }), { description = "Window: Send to workspace 10" })
---# We also use raw keycodes because some keyboard layouts register number keys as different chars. The codes can be verified with `wev`
-hl.bind("SUPER + SHIFT + code:10", hl.dsp.window.move({ workspace = 1, follow = false }))
-hl.bind("SUPER + SHIFT + code:11", hl.dsp.window.move({ workspace = 2, follow = false }))
-hl.bind("SUPER + SHIFT + code:12", hl.dsp.window.move({ workspace = 3, follow = false }))
-hl.bind("SUPER + SHIFT + code:13", hl.dsp.window.move({ workspace = 4, follow = false }))
-hl.bind("SUPER + SHIFT + code:14", hl.dsp.window.move({ workspace = 5, follow = false }))
-hl.bind("SUPER + SHIFT + code:15", hl.dsp.window.move({ workspace = 6, follow = false }))
-hl.bind("SUPER + SHIFT + code:16", hl.dsp.window.move({ workspace = 7, follow = false }))
-hl.bind("SUPER + SHIFT + code:17", hl.dsp.window.move({ workspace = 8, follow = false }))
-hl.bind("SUPER + SHIFT + code:18", hl.dsp.window.move({ workspace = 9, follow = false }))
-hl.bind("SUPER + SHIFT + code:19", hl.dsp.window.move({ workspace = 10, follow = false }))
---# keypad numbers
-hl.bind("SUPER + SHIFT + code:87", hl.dsp.window.move({ workspace = 1, follow = false }))
-hl.bind("SUPER + SHIFT + code:88", hl.dsp.window.move({ workspace = 2, follow = false }))
-hl.bind("SUPER + SHIFT + code:89", hl.dsp.window.move({ workspace = 3, follow = false }))
-hl.bind("SUPER + SHIFT + code:83", hl.dsp.window.move({ workspace = 4, follow = false }))
-hl.bind("SUPER + SHIFT + code:84", hl.dsp.window.move({ workspace = 5, follow = false }))
-hl.bind("SUPER + SHIFT + code:85", hl.dsp.window.move({ workspace = 6, follow = false }))
-hl.bind("SUPER + SHIFT + code:79", hl.dsp.window.move({ workspace = 7, follow = false }))
-hl.bind("SUPER + SHIFT + code:80", hl.dsp.window.move({ workspace = 8, follow = false }))
-hl.bind("SUPER + SHIFT + code:81", hl.dsp.window.move({ workspace = 9, follow = false }))
-hl.bind("SUPER + SHIFT + code:90", hl.dsp.window.move({ workspace = 10, follow = false }))
 
 --# #/# bind = SUPER+SHIFT, Scroll ↑/↓,, -- Send to workspace left/right
 for i = 1, 4 do
@@ -262,28 +240,6 @@ hl.bind("SUPER + 7", hl.dsp.focus({ workspace = 7 }), { description = "Workspace
 hl.bind("SUPER + 8", hl.dsp.focus({ workspace = 8 }), { description = "Workspace: Focus 8" })
 hl.bind("SUPER + 9", hl.dsp.focus({ workspace = 9 }), { description = "Workspace: Focus 9" })
 hl.bind("SUPER + 0", hl.dsp.focus({ workspace = 10 }), { description = "Workspace: Focus 10" })
---# We also use raw keycodes because some keyboard layouts register number keys as different chars. The codes can be verified with `wev`
-hl.bind("SUPER + code:10", hl.dsp.focus({ workspace = 1 }))
-hl.bind("SUPER + code:11", hl.dsp.focus({ workspace = 2 }))
-hl.bind("SUPER + code:12", hl.dsp.focus({ workspace = 3 }))
-hl.bind("SUPER + code:13", hl.dsp.focus({ workspace = 4 }))
-hl.bind("SUPER + code:14", hl.dsp.focus({ workspace = 5 }))
-hl.bind("SUPER + code:15", hl.dsp.focus({ workspace = 6 }))
-hl.bind("SUPER + code:16", hl.dsp.focus({ workspace = 7 }))
-hl.bind("SUPER + code:17", hl.dsp.focus({ workspace = 8 }))
-hl.bind("SUPER + code:18", hl.dsp.focus({ workspace = 9 }))
-hl.bind("SUPER + code:19", hl.dsp.focus({ workspace = 10 }))
---# keypad numbers
-hl.bind("SUPER + code:87", hl.dsp.focus({ workspace = 1 }))
-hl.bind("SUPER + code:88", hl.dsp.focus({ workspace = 2 }))
-hl.bind("SUPER + code:89", hl.dsp.focus({ workspace = 3 }))
-hl.bind("SUPER + code:83", hl.dsp.focus({ workspace = 4 }))
-hl.bind("SUPER + code:84", hl.dsp.focus({ workspace = 5 }))
-hl.bind("SUPER + code:85", hl.dsp.focus({ workspace = 6 }))
-hl.bind("SUPER + code:79", hl.dsp.focus({ workspace = 7 }))
-hl.bind("SUPER + code:80", hl.dsp.focus({ workspace = 8 }))
-hl.bind("SUPER + code:81", hl.dsp.focus({ workspace = 9 }))
-hl.bind("SUPER + code:90", hl.dsp.focus({ workspace = 10 }))
 
 --#/# bind = CTRL+SUPER, ←/→,, -- Focus left/right
 --#/# bind = CTRL+SUPER+ALT, ←/→,, -- # [hidden] Focus busy left/right
