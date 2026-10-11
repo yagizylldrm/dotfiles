@@ -21,18 +21,15 @@ sudo pacman -S --needed --noconfirm \
     thunar \
     ttf-firacode-nerd noto-fonts noto-fonts-emoji
 
-# 2. Install AUR packages (yay)
-echo "📦 Installing AUR packages..."
-if ! command -v yay &> /dev/null; then
-    echo "Installing yay..."
-    cd /tmp
-    git clone https://aur.archlinux.org/yay.git
-    cd yay
-    makepkg -si --noconfirm
-    cd - >/dev/null
-fi
+# 2. Install Global NPM packages
+echo "🌐 Installing global npm packages (omniroute)..."
+sudo npm install -g omniroute
 
-yay -S --needed --noconfirm omniroute
+# 3. Optional AUR packages
+if command -v yay &> /dev/null; then
+    echo "📦 Installing AUR tools..."
+    yay -S --needed --noconfirm ngrok 2>/dev/null || true
+fi
 
 # 3. Install LinuxBrew
 echo "🍺 Setting up LinuxBrew..."
